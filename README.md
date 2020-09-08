@@ -64,7 +64,7 @@ I will update this guide as I explore more on booting from Harddisk EFI.
 - [Boot to Recovery](https://apple.stackexchange.com/questions/367336/macos-boot-to-recovery-mode-command-line)
 - [gibMacOS ](https://github.com/corpnewt/gibMacOS)
 - [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
-- [Atheros Driver AR9485] (https://github.com/ipang-dwi/atheros)
+- [Atheros Driver AR9485](https://github.com/ipang-dwi/atheros)
 
 
 ## Contributers
