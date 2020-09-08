@@ -3,7 +3,7 @@
 Dell Inspiron 3521 Hackintosh OpenCore Guide
 
 
-## Instllation Guide Followed
+## Installation Guide Followed
 OpenCore Install Guide https://dortania.github.io/OpenCore-Install-Guide/
 
 ## System Configuration
