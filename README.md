@@ -1,6 +1,6 @@
-# Dell Inspiron 3521 Hackintosh OpenCore
+# Dell Inspiron 3521 Hackintosh OpenCore build for 10.15.6 macOS Catalina
 
-Dell Inspiron 3521 Hackintosh OpenCore Guide
+Dell Inspiron 3521 Hackintosh built using OpenCore build for 10.15.6 macOS Catalina. Please dont forget to ⭐ this repository. I will keep fixing more bugs in future if more users are interested in this Hackintosh
 
 
 ## Installation Guide Followed
@@ -16,7 +16,7 @@ Default Dell Inspiron 3521
 
 ## Installation
 
-On Windows:-
+Through Windows:-
 
 Download [gibMacOS ](https://github.com/corpnewt/gibMacOS) and save it in a directory with atleast 10GB of space available, as we will be downloading the MAC OS installation
 
@@ -41,22 +41,25 @@ Since I have already compiled everything for you. You dont need to install any d
 I will update this guide as I explore more on booting from Harddisk EFI.
 
 ## What is working
-- Intel HD4000 (iGPU)
-- Audio (sound little low than normal, but you can always use external speakers)
-- LAN
-- WiFi (Although Speed is not more than 3-4 Mbps, you can achieve 11Mbps MAX)
+- Intel HD4000 Graphics
+- Brightness Control
 - External Monitor using HDMI
 - Screen Resolution (max I have achieved 2560x1080 using LG ultrawide monitor)
+- Audio (sound little low than normal, but you can always use external speakers)
+- Camera
+- Battery Status
+- LAN
+- WiFi (Although speed is not more than 3-4 Mbps, you can achieve 11Mbps MAX)
 - USB Controller
-- System Trackpad and keyboard
-- Tested USB Keyboard and Mouse
+- System Trackpad (Tapping and Clicking wont work, so you need external mouse) and keyboard
+- External USB Keyboard and Mouse
 - USB Android Tethering (Install [HoRNDIS](https://joshuawise.com/horndis), you also need to disable system integrity protection (SIP). For this first boot to recovery using `sudo nvram "recovery-boot-mode=unused"` and `sudo reboot`, Once you are in recovery open terminal `csrutil disable` and reboot. Once you are back to your MAC `sudo mount -uw /` and now run HoRNDIS Installer)
 
 ## What is not working
 - Bluetooth (It will display bluetooth, but it doesnt work)
-- AMD 7670 (Although it shows but not sure if it works, will test more and update)
+- AMD 7670 (It will show in system settings but you cannot use it for rendering)
 - Card Reader
-- Sleep may cause issue, so goto `System Preferences > Energy Saver`, set `Computer sleep` and `Display sleep` to never and uncheck Wake for network access
+- Sleep not working, so goto `System Preferences > Energy Saver`, set `Computer sleep` and `Display sleep` to never and uncheck Wake for network access
 - if anything else is not working let me know by creating new issue
 
 ## References & Special thanks to
