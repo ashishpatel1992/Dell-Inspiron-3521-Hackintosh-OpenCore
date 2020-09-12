@@ -1,6 +1,8 @@
 # Dell Inspiron 3521 Hackintosh OpenCore build for 10.15.6 macOS Catalina
 
-Dell Inspiron 3521 Hackintosh built using OpenCore build for 10.15.6 macOS Catalina. Please dont forget to ⭐ this repository. I will keep fixing more bugs in future if more users are interested in this Hackintosh
+Dell Inspiron 3521 Hackintosh built using OpenCore build for 10.15.6 macOS Catalina.
+
+Please dont forget to ⭐ this repository. I will keep fixing more bugs in future if more users are interested in this Hackintosh
 
 ![Dell Inspiron 3521 Catalina 10.15.6 hackintosh](https://i.imgur.com/ZnpkXZ4.png)
 
